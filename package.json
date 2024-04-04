@@ -1,0 +1,31 @@
+{
+  "name": "@layer92/axios-utilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compiled/index.js",
+  "types": "compiled/index.d.ts",
+  "files": [
+    "compiled"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prepublish": "tsc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layer92/axios-utilities-ts.git"
+  },
+  "author": "layer92",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/layer92/axios-utilities-ts/issues"
+  },
+  "homepage": "https://github.com/layer92/axios-utilities-ts#readme",
+  "dependencies": {
+    "@layer92/core": "git+https://github.com/layer92/core-ts.git",
+    "@types/axios": "0.14.0",
+    "@types/node": "20.8.6",
+    "axios": "^1.1.0",
+    "typescript": "5.2.2"
+  }
+}
